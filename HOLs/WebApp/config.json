@@ -5,8 +5,8 @@
     "sqlDatabase" : "deans-db",
     "sqlLogin" : "sqladmin",
     "sqlPassword" : "P@ssw@rd",
-    "powerbiCollectionName": "<PASTE YOUR POWER BI EMBEDDED WORKSPACE COLLECTION NAME HERE>",
-    "powerbiWorkspaceId": "<PASTE YOUR POWER BI EMBEDDED WORKSPACE ID HERE>",
-    "powerbiReportId": "<PASTE YOUR POWER BI EMBEDDED REPORT ID HERE>",
-    "powerbiAccessKey": "<PASTE YOUR POWER BI EMBEDDED WORKSPACE COLLECTION ACCESS KEY HERE>"
+    "powerbiCollectionName": "deans-collection",
+    "powerbiWorkspaceId": "3232e8c6-8c8a-4933-befc-d816c8d88b2a",
+    "powerbiReportId": "702f613e-e3ca-4195-ad5f-82f57d553e42",
+    "powerbiAccessKey": "U0IY2xbXEmXRp9bm5sCA7ZldU5kdH3px6lcYoGZDFte5mdSnFPuooNkP1h9yAUB4h/Wpet/0loxJpifIaGDwEQ=="
 } 
