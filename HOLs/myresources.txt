@@ -5,90 +5,92 @@ Naming Convention, Region & Group
 ========================================
 
 Naming convention prefix:                   
-<paste your Naming convention prefix here>
+deans
 
 Region (data center):                       
-<paste your region name here>
+West US
 
 Resource Group Name:                        
-<paste your resource group name here>
+deans-IoTRG
 
 ========================================
 Azure IoT Hub Resources 
 ========================================
 
 IoT Hub Name:
-<paste your IoT Hub name here>
+deans-iot
 
 IoT Hub "iothubowner" SAS Policy Primary Connection String:
-<paste your IoT Hub "iothubowner" sas policy connection string here Hub name here>
+HostName=deans-iot.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=zd11LdmW0aXy/fkWEHxfGiUmf9WKMI4fVfyGaKeYKuc=
+
 
 IoT Hub "service" SAS Policy Primary Connection String:
-<paste your IoT Hub "service" sas policy connection string here Hub name here>
+HostName=deans-iot.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=kp9U1HF0sBknA1zDlIWMKUlMqQiVIV2J5vGFw5eAIKg=
 
 IoT Hub Device Name:
-<paste your IoT Hub device id / name here>
+deans-IntelIoTGateway
 
 IoT Hub Device Connection String:
-<paste your IoT Hub device's primary connection string here>
+HostName=deans-iot.azure-devices.net;DeviceId=deans-IntelIoTGateway;SharedAccessKey=D+wibKIajUiOnnDDGKe326xs8en9lnP0UDILjLJ+8ok=
+
 
 ========================================
 Azure SQL Database Resources 
 ========================================
 
 Azure SQL Database Name:
-<paste your Azure SQL Database name here>
+deans-db
 
 Azure SQL Server Name:
-<paste your Azure SQL server name here>
+deans-sql
 
 Azure SQL Server Fully Qualified Domain Name (FQDN):
-<paste your Azure SQL Database name here>.database.windows.net
+deans-sql.database.windows.net
 
 Azure SQL Server Login (sqladmin is recommeded):
-<paste your sql admin login name here>
+sqladmin
 
 Azure SQL Server Qualified SQL Login:
-<paste your sql admin login name here>@<paste your Azure SQL Server name here>
+sqladmin@deans-sql
 
 Azure SQL Server Password (P@ssw0rd is recommended):
-<paste your sql admin password here>
+P@ssw@rd
 
 ========================================
 Azure Event Hub Resources
 ========================================
 
 Azure Event Hub Namespace Name:
-<paste your Event Hub's Service Bus Namespace name here>
+deans-ns
 
 Azure Event Hub Namespace Fully Qualified Domain Name (FQDN):
-<paste your Event Hub's Service Bus Namespace name here>.servicebus.windows.net
+deans-ns.servicebus.windows.net
 
 Root Manage Shared Access Key SAS Policy Primary Connection String:
-<paste your Event Hub Namespace's RootManageSharedAccessKey SAS Policy primary connection string here>
+Endpoint=sb://deans-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=FNUmBIPfQLZBWGTdFp7v/i78S1IX+e+LO2DFHjfm7LM=
 
 Event Hub Name:
-<paste your Azure Event Hub Name here>
+deans-alerts
 
 ========================================
 Azure Web App Resources
 ========================================
 
 App Service Plan:
-<paste your Azure App Plan name here>
+deans-plan
 
 Web App Name:
-<paste your Azure Web App Name here>
+deans-web
 
 Web App URL (You can copy this from the overview page of your Azure Web App):
-http://<paste your Azure Web App Name here>.azurewebsites.net
+http://deans-web.azurewebsites.net
 
 Git Clone URL (You can copy this from the overview page of your Azure Web App):
-<paste your Azure Web App Git Clone URL here>
+https://deansuzuki2@deans-web.scm.azurewebsites.net:443/deans-web.git
 
 Deployment Credentials:
-User Name:	<paste your deployment credentials user name here>
-Password:	<paste your deployment credentials password here>
+User Name:	deansuzuki2
+Password:	P@ssw@rd
 
 
 ========================================
